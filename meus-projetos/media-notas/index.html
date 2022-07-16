@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de Notas - Enem</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Calculadora da Média do Enem</h1>
+    </header>
+    <section>
+        <div class="materias">
+            <p><label>Redação</label> <input type="number" name="Redação" id="red" ></p>
+
+            <p><label>Linguagens e Códigos</label> <input type="number" name="Linguagens e Códigos" id="ling"></p>
+
+            <p><label>Ciências Humanas</label> <input type="number" name="Ciências Humanas" id="hum"></p>
+
+            <p><label >Matemática</label> <input type="number" name="Matemática" id="mat" ></p>
+
+            <p><label >Ciências da natureza </label><input type="number" name="ciências da natureza" id="nat"></p>
+
+            <p><input type="button" value="Calcular" onclick="calcularMedia()"></p>
+        </div>
+        <div id="res" >
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Projeto feito por <a href="#">Levy Bezerra</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

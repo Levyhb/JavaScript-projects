@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the color</title>
+  </head>
+  <body class="">
+    <section class="a">
+      <header>
+        <h1 id="title">
+          <span class="color1">Guess</span> <span class="color2">The</span>
+          <span class="color3">Color!</span>
+        </h1>
+      </header>
+      <main class="mainStyle">
+        <article class="container">
+          <p id="rgb-color">(168, 34, 1)</p>
+          <h3 id="answer">Escolha uma cor!</h3>
+          <section class="section-ball"></section>
+          <button id="reset-game" class="btn btn-warning">Resetar</button>
+          <div class="scores">
+            <p>Scores:</p>
+            <p id="score">0</p>
+          </div>
+          <p id="result"></p>
+        </article>
+      </main>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

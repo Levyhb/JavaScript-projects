@@ -1,0 +1,281 @@
+@font-face {
+  font-family: 'Pixel';
+  src: url(LLPIXEL3.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gif-container {
+  background: url('mario-pixel-art.gif') center;
+  background-size: cover;
+  height: 100%;
+  z-index: -1;
+}
+
+body {
+  height: 100%;
+}
+
+body {
+  background: url('mario-pixel-art.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+header{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 3.5em;
+  font-family: 'Pixel';
+}
+
+.pixP:hover {
+  color: #F33BF8;
+}
+
+.pixI:hover {
+  color: #009900;
+}
+
+.pixX:hover {
+  color: #9800F0;
+}
+
+.pixE:hover {
+  color: #C4F001;
+}
+
+.pixL:hover {
+  color: #0090F0;
+}
+
+.artA:hover {
+  color: #FFA119;
+}
+
+.artR:hover {
+  color: #00F0B2;
+}
+
+.artT:hover {
+  color: #FF4F19;
+}
+
+section {
+  background: rgba(0, 140, 248, 0.435);
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.primary {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+}
+.primary:hover{
+  cursor: pointer;
+}
+.primary:active{
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 0px;
+
+}
+
+.secondary {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+}
+.secondary:hover{
+cursor: pointer;
+}
+.secondary:active{
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 0px;
+
+}
+
+.tertiary {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+}
+.tertiary:hover{
+cursor: pointer;
+}
+.tertiary:active{
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 0px;
+
+}
+
+.quaternary {
+  background-color: #00b4fe;
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+}
+.quaternary:hover{
+  cursor: pointer;
+}
+.quaternary:active{
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 0px;
+}
+
+.quinary {
+  background-color: #652F00;
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+}
+.quinary:hover{
+cursor: pointer;
+}
+
+.quinary:active{
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 0px;
+
+}
+
+.senary {
+  background-color: #F2F200;
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+}
+.senary:hover{
+  cursor: pointer;
+}
+
+.senary:active{
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 0px;
+
+}
+
+.skin {
+  background-color: rgb(250, 192, 144);
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+}
+.skin:hover{
+  cursor: pointer;
+}
+.skin:active{
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 0px;
+
+}
+
+.clean {
+  background-color: rgba(255, 255, 255, 0.434);
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.747);
+}
+.clean:hover{
+  cursor: pointer;
+}
+
+.clean:active{
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 0px;
+}
+
+#pixel-board {
+  height: 350px;
+
+  --size: 4;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(var(--size), 1fr);
+  grid-template-rows: repeat(var(--size), 1fr);
+  gap: 0;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.pixel {
+  background-color: rgba(255, 255, 255, 0.434);
+  border: solid black 1px;
+}
+
+.button-conteiner {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+#clear-board {
+  width: 75px;
+  height: 27px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 1px;
+}
+
+#board-size{
+text-align: center;
+/* width: 75px; */
+}
+
+#generate-board{
+cursor: pointer;
+}
+
+.btn-color {
+  margin-left: 5px;
+  border-radius: 5px;
+}
