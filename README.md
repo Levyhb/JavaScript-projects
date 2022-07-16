@@ -1,4 +1,4 @@
 # JavaScript-projects
 
-## projetos pessoais para estudar javascript (nível básico) 
+ - Projetos pessoais para estudar javascript (nível básico) 
 
