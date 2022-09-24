@@ -3,7 +3,7 @@
  - Projetos feitos para reforçar o estudo em javascript (nível básico) 
 
 ## Project Pixel-Art: 
-- Projeto de um verdedeiro "Pixel-Art", construído usando JavaScript/HTML/CSS.
+- Projeto de um "Pixel-Art", construído usando JavaScript/HTML/CSS.
 (Desenvolvido durante o curso da Trybe)
 
 #### Veja o resultado aqui: https://levyhb.github.io/JavaScript-projects/meus-projetos/Pixel-Art/index.html
